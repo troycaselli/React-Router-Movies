@@ -16,6 +16,11 @@ body {
   margin: 1rem auto;
 }
 
+.movie-text {
+  text-decoration: none;
+  color: black;
+}
+
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
@@ -69,4 +74,6 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  border: none;
+  cursor: pointer;
 }
