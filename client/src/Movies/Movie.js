@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import {useRouteMatch, useParams} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import axios from 'axios';
 
 export default function Movie(props) {
   const [movie, setMovie] = useState();
-
-  // const {path, url} = useRouteMatch();
-  // console.log(path, url);
   const {id} = useParams();
 
   useEffect(() => {
